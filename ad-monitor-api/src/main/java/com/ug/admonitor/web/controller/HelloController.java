@@ -30,6 +30,11 @@ public class HelloController {
         return map;
     }
 
+    @GetMapping("/needLogin")
+    public  String needLogin(){
+        return "needLogin!!!";
+    }
+
     @GetMapping("/hello")
     public  String helloWorld(){
         return "hello world~~ 中文";
