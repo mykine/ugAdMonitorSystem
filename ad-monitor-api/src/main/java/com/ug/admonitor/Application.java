@@ -1,8 +1,9 @@
-package com.ug.admonitor.web;
+package com.ug.admonitor;
 
 import com.ug.admonitor.web.bean.Cat;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
